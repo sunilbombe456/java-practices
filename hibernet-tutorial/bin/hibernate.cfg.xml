@@ -1,0 +1,33 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<!-- <session-factory> -->
+	<!-- JDBC datbase Connection Settings -->
+	<!-- <property name="connection.driver_class">com.mysql.jdbc.Driver</property> 
+		<property name="connection.url">jdbc:mysql://localhost:3308/hb_student_tracker?useSSL=false</property> 
+		<property name="connection.user">hbstudent</property> <property name="connection.password">hbstudentr</property> -->
+
+	<!-- jdbc Connection pool Setting ..using built in test pool -->
+	<!-- <property name="connection.pool_size">1</property> -->
+	<!-- Select out SQL Dialect -->
+	<!-- <property name="dialect">org.hibernate.dialect.MySQLDialect</property> -->
+	<!-- Echo the SQL to Stdout -->
+	<!-- <property name="show_sql">true</property> -->
+
+	<!-- Set Current Session Context -->
+	<!-- <property name="current_session_context_class">thread</property> -->
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3308/hb_student_tracker?useSSL=false</property>
+		<property name="hibernate.connection.username">hbstudent</property>
+		<property name="hibernate.connection.password">hbstudent</property>
+		<property name="hibernate.connection.pool_size">1</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.show_sql">true</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+	</session-factory>
+</hibernate-configuration>

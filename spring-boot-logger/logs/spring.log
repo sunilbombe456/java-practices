@@ -1,0 +1,19 @@
+2020-55-16 15:55:24 [restartedMain] INFO  c.w.s.SpringBootLoggerApplication -Starting SpringBootLoggerApplication on DESKTOP-3G0RS21 with PID 7184 (H:\eclipse-workspace\spring-boot-logger\target\classes started by rahul in H:\eclipse-workspace\spring-boot-logger)
+2020-55-16 15:55:24 [restartedMain] INFO  c.w.s.SpringBootLoggerApplication -No active profile set, falling back to default profiles: default
+2020-55-16 15:55:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-55-16 15:55:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-55-16 15:55:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+2020-55-16 15:55:26 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2020-55-16 15:55:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-55-16 15:55:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2020-55-16 15:55:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1806 ms
+2020-55-16 15:55:27 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2020-55-16 15:55:27 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2020-55-16 15:55:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+2020-55-16 15:55:27 [restartedMain] INFO  c.w.s.SpringBootLoggerApplication -Started SpringBootLoggerApplication in 3.558 seconds (JVM running for 4.791)
+2020-55-16 15:55:48 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-55-16 15:55:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2020-55-16 15:55:48 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet -Completed initialization in 14 ms
+2020-55-16 15:55:48 [http-nio-8080-exec-1] TRACE c.w.s.controller.DemoController -Home Method is Accessed...!
+2020-58-16 15:58:55 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+2020-58-16 15:58:56 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor -Shutting down ExecutorService 'applicationTaskExecutor'

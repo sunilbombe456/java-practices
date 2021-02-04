@@ -1,0 +1,19 @@
+{
+	"id": 1,
+	"firstName": "sunil",
+	"lastName": "bombe",
+	"active": true,
+	"address": {
+		"street": "100 main Street",
+		"city": "pune",
+		"state": "Maharashtra",
+		"zip": "410504",
+		"country": "INDIA"
+	},
+	"language": [
+		"Marathi",
+		"hindi",
+		"english"
+	],
+	"company": "TCS"
+}
